@@ -78,10 +78,10 @@ public class Method02 {
         int kor = scan.nextInt();
         System.out.println("영어 점수를 기입해주세요.");
         int eng = scan.nextInt();
-        int sum = 0;
-        float avg = 0;
 
-        average(kor, eng, math,sum,avg );
+
+        double avg = average(kor, eng, math );
+
 
 
         scroes(avg);
@@ -229,12 +229,12 @@ public class Method02 {
 
 
 
-    public static float average(int kor, int eng, int math, int sum, float avg )
+    public static double average(int kor, int eng, int math )
     {
 
-        sum = kor + eng + math;
+        int sum = kor + eng + math;
 
-        avg = (sum)/3 ;
+        double avg = (sum)/3 ;
 
         System.out.println("세 과목 총점은 : " + sum);
         System.out.println("세 과목 평균은 : " + avg);
@@ -243,7 +243,7 @@ public class Method02 {
 
     }
 
-    public static void  scroes(float avg)
+    public static void  scroes(double avg)
     {
 
         if (avg>=90)

@@ -1,6 +1,6 @@
 public class Main {
     public static void main(String[] args) {
-//        Circle 클래스 타입의 변수 pizza 생
+//        Circle 클래스 타입의 변수 pizza 생성
         Circle pizza;
 
 //        Circle 클래스 타입의 변수 pizza에 Circle 클래스 객체의 주소를 저장
