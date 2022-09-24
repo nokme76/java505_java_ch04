@@ -9,18 +9,49 @@ public class RectArray {
     public static void main(String[] args){
         Scanner scan = new Scanner(System.in);
 
-        int arrayInt[][];
-        arrayInt = new int [2][4];
+//      최초 정답
+//        Rect rectList[] = new Rect[4];
+//
+//        for (int i = 0; i<rectList.length; i++)
+//        {
+//            System.out.print((i+1) + " 너비와 높이 >>");
+//            int weight = scan.nextInt();
+//            int height = scan.nextInt();
+//
+//            rectList[i] = new Rect(weight,height);
+//
+//        }
+//            int rectSum = rectList[0].getArea() + rectList[1].getArea() + rectList[2].getArea() + rectList[3].getArea();
+//
+//        System.out.println("저장하였습니다...");
+//        System.out.println("사각형의 전체 합은 " + rectSum);
+//
+//
+//
+        Rect rectList[] ;
+        System.out.print("몇개의 사각형을 입력하시겠습니까? ");
+        int squareNum = scan.nextInt();
+        rectList = new Rect[squareNum];
 
-        for (int i = 0; i<arrayInt.length; i++){
-            for (int j = 0; j<arrayInt[i].length; j++)
-            {
-                System.out.print((i+1) +" 너비와 높이 >>");
-                scan.nextInt();
-            }
+        int rectSum = 0;
+        for (int i = 0; i<rectList.length; i++)
+        {
+            System.out.print((i+1) + " 너비와 높이 >>");
+            int weight = scan.nextInt();
+            int height = scan.nextInt();
+
+            rectList[i] = new Rect(weight,height);
+            rectSum += rectList[i].getArea();
         }
+
+
+
+
         System.out.println("저장하였습니다...");
-        System.out.println("사각형 전체 합은 " + Rect.getArea);
+        System.out.println("사각형의 전체 합은 " + rectSum);
+
+
+
 
 
 

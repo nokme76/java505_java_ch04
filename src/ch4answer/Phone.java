@@ -9,4 +9,9 @@ public class Phone {
 
     public String getName(){return name;}
     public String getTel(){return tel;}
+
+    public void printInfo()
+    {
+        System.out.println(this.name + "의 번호는 " + this.tel + " 입니다.");
+    }
 }
