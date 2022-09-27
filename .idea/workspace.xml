@@ -8,6 +8,8 @@
       <change afterPath="$PROJECT_DIR$/src/ch04Bonus/Box.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/ch04Bonus/Circle.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/ch04Bonus/CircleManager.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ch04Bonus/GamblingGame.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ch04Bonus/Player.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/ch04Bonus/StaticTest.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/ch04Prac/Calculator.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/ch04Prac/SemiEx.java" afterDir="false" />
@@ -66,6 +68,7 @@
       <workItem from="1663890649672" duration="23572000" />
       <workItem from="1664150299839" duration="626000" />
       <workItem from="1664151029653" duration="25502000" />
+      <workItem from="1664236556397" duration="227000" />
     </task>
     <servers />
   </component>

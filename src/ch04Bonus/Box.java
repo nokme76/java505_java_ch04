@@ -7,7 +7,7 @@ public class Box {
     private char fillChar; //박스를 그리는데 사용하는 문자
     public  Box()
     { //매개 변수 없는 생성자. 10x1의 박스 생성
-        this.width = 10 ;   //this 이용해서 완성
+        this(10,1)  ;   //this 이용해서 완성
     }
     public Box(int width, int height) // 너비,높이 두 매개변수를 가진 생성자
     {
