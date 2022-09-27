@@ -5,35 +5,16 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="1f81acd8-78f9-48ab-9bd0-7eae98c45625" name="변경" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/BMI.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Calc.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Earth.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/EarthEx.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/GetSet.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/GetterSetterEx.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Person.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/PersonEX.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/SIngletonEx.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Singleton.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/StaticClass.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/StaticMember.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Tv.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ch4answer/Answer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ch4answer/Answer2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ch4answer/Phone.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ch4answer/Rect.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ch4answer/RectArray.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ch4answer/Song.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/package1/A.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/package1/B.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/package2/AccessEx.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/package2/C.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/package2/D.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ch04Bonus/Box.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ch04Bonus/Circle.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ch04Bonus/CircleManager.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ch04Bonus/StaticTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ch04Prac/Calculator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ch04Prac/SemiEx.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/subject/QuestionEx.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Circle.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Circle.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Method02.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Method02.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ch4answer/PhoneManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ch4answer/PhoneManager.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ch4answer/Song.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ch4answer/Song.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -59,19 +40,19 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "settings.editor.selected.configurable": "reference.settingsdialog.IDE.editor.colors.Java"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;reference.settingsdialog.IDE.editor.colors.Java&quot;
   }
-}]]></component>
+}</component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="애플리케이션 수준" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="디폴트 작업">
@@ -83,6 +64,8 @@
       <workItem from="1663725884386" duration="17762000" />
       <workItem from="1663804661626" duration="21843000" />
       <workItem from="1663890649672" duration="23572000" />
+      <workItem from="1664150299839" duration="626000" />
+      <workItem from="1664151029653" duration="25502000" />
     </task>
     <servers />
   </component>
@@ -99,5 +82,15 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <breakpoint enabled="true" type="java-exception">
+          <properties class="java.lang.NullPointerException" package="java.lang" />
+          <option name="timeStamp" value="1" />
+        </breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>
